@@ -1,0 +1,172 @@
+/* Resets e Configurações Gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte limpa e sem serifa para fácil leitura */
+    font-size: 1.125rem; /* 18px - tamanho adequado para leitura confortável */
+    line-height: 1.6;
+    background-color: #f4f6f8; /* Fundo neutro e suave */
+    color: #1c1c1c; /* Texto escuro mantendo alto contraste */
+    padding: 0 15px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a365d; /* Azul escuro corporativo/educacional */
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #2b6cb0;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #1a365d;
+    outline: 3px solid #ffc107; /* Borda destacada ao focar via teclado */
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Estilo das Seções */
+section {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #1a365d;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2b6cb0;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #2c5282;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Cards de Informações Importantes */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #edf2f7;
+    border-left: 5px solid #2b6cb0;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* Botões */
+.botoes-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2b6cb0;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 2px solid #2b6cb0;
+    text-align: center;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #1a365d;
+    border-color: #1a365d;
+    outline: 3px solid #ffc107;
+}
+
+.btn-destaque {
+    background-color: #2f855a; /* Verde escuro para fácil distinção e bom contraste */
+    border-color: #2f855a;
+}
+
+.btn-destaque:hover, .btn-destaque:focus {
+    background-color: #22543d;
+    border-color: #22543d;
+}
+
+/* Imagens */
+.imagem-secao {
+    text-align: center;
+}
+
+.imagem-acessivel {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #cbd5e0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #4a5568;
+    font-size: 0.95rem;
+    margin-top: 20px;
+}
